@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#2f6b4f"/>
+  <!-- 槓鈴 -->
+  <g fill="#f5f3ec">
+    <rect x="96" y="236" width="320" height="40" rx="20"/>
+    <rect x="120" y="176" width="44" height="160" rx="14"/>
+    <rect x="348" y="176" width="44" height="160" rx="14"/>
+  </g>
+  <!-- 葉子 -->
+  <path d="M256 150c-52 4-86 34-92 84 52-2 88-26 92-84z" fill="#9ad3a6"/>
+  <path d="M256 150c52 4 86 34 92 84-52-2-88-26-92-84z" fill="#6fbf84"/>
+</svg>

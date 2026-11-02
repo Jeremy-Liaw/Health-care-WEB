@@ -1,0 +1,14 @@
+{
+  "name": "健康平衡",
+  "short_name": "健康平衡",
+  "description": "記錄飲食、睡眠、喝水與運動",
+  "start_url": "./#/today",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f3ec",
+  "theme_color": "#2f6b4f",
+  "lang": "zh-Hant",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

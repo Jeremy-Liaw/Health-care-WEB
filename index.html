@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>健康平衡</title>
+  <meta name="description" content="記錄飲食、睡眠、喝水與運動，平衡重訓與健康生活">
+  <meta name="theme-color" content="#2f6b4f" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#14201a" media="(prefers-color-scheme: dark)">
+  <meta name="robots" content="noindex">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="健康平衡">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>健康平衡</h1>
+    <button id="sync" class="sync" hidden></button>
+  </header>
+
+  <main id="view" aria-live="polite"></main>
+
+  <nav class="tabbar" aria-label="主選單">
+    <a href="#/today" data-r="today"><span>📝</span>今日</a>
+    <a href="#/dashboard" data-r="dashboard"><span>📊</span>儀表板</a>
+    <a href="#/goals" data-r="goals"><span>🎯</span>目標週報</a>
+    <a href="#/workouts" data-r="workouts"><span>🏃</span>運動</a>
+    <a href="#/settings" data-r="settings"><span>⚙️</span>設定</a>
+  </nav>
+
+  <div id="toast" role="status"></div>
+
+  <script src="core.js"></script>
+  <script src="charts.js"></script>
+  <script src="api.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
